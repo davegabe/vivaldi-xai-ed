@@ -1,0 +1,98 @@
+{
+  "step_id": "2f09a82e",
+  "timestamp": "2026-01-15T11:07:07.666406",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99755326"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.048,
+      "shock_index_interpretation": "HIGH (1.05), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 120.3,
+      "map_interpretation": "Elevated (120 mmHg), above reference range (65-100 mmHg). Consider hypertensive state.",
+      "pulse_pressure": 10.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=100, RR=27. Associated with poor outcomes in sepsis.",
+      "sirs": 2,
+      "spo2_trend": {
+        "first": 92.8,
+        "last": 98.0,
+        "min": 84.1,
+        "mean": 98.2,
+        "slope": 0.0429,
+        "r_squared": 0.17,
+        "trend_pct": 3.65
+      },
+      "hr_volatility": {
+        "dispersion_ms": 29.56,
+        "rmssd_ms": 6.54,
+        "hr_std_bpm": 9.18,
+        "hr_range_bpm": 35.7,
+        "n_samples": 84,
+        "data_density": "moderate"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "49-year-old Female with a past medical history significant for digestive tract issues (cholangitis, bile duct calculus, acquired absence of digestive tract parts, retained cholelithiasis), fractures, depression, anxiety, and a history of tricyclic antidepressant poisoning. She is currently taking trazodone, gabapentin, sertraline, and vitamin D. Presents with a drug overdose.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 90.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 60.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 22.0
+        },
+        "spo2": {
+          "low": 92.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 36.1,
+          "high": 37.5
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 110.0
+        },
+        "sbp": {
+          "low": 80.0,
+          "high": 150.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 100.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 25.0
+        },
+        "spo2": {
+          "low": 90.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.5,
+          "high": 38.0
+        }
+      },
+      "rationale": "The patient's vital signs show variability. Heart rate is elevated (mean 132.66 bpm), respiratory rate is elevated (mean 20.18 brpm), and temperature is low (mean 35.75\u00b0C). The temperature readings consistently fall in the lower range (35.5-36.5\u00b0C), suggesting potential axillary or peripheral measurement. Therefore, the normal temperature range is adjusted downwards. The normal ranges for other vitals are set based on standard adult values, with slightly wider warning ranges to account for the acute presentation (drug overdose) and potential physiological stress. The overdose itself may cause tachycardia, tachypnea, and potentially hypothermia or hyperthermia depending on the substance. The normal ranges aim for stability within these parameters, while warning ranges indicate potential deterioration requiring closer monitoring or intervention."
+    },
+    "success": true
+  },
+  "duration_ms": 20115.944862365723
+}

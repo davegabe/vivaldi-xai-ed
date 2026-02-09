@@ -1,0 +1,45 @@
+# Data Processing
+pandas
+numpy
+scipy
+
+# Machine Learning & Metrics
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# LLM Orchestration
+langchain
+langchain-core
+
+# LLM Providers - OpenAI (GPT), Anthropic (Claude)
+langchain-openai
+langchain-anthropic
+openai
+
+# LLM Providers - Google Cloud Vertex AI (Gemini, Llama, MedGemma)
+google-cloud-aiplatform
+langchain-google-vertexai
+langchain-google-genai
+anthropic
+
+# Streamlit Expert Survey App
+streamlit>=1.41.0
+streamlit-extras
+extra-streamlit-components
+plotly
+markdown-it-py[plugins]
+pymongo
+certifi
+
+# Configuration & Utilities
+python-dotenv
+pydantic
+tqdm
+json-repair
+
+# Testing
+pytest
+pytest-cov

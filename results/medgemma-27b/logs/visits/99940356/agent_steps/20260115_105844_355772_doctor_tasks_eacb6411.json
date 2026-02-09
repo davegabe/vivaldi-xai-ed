@@ -1,0 +1,17 @@
+{
+  "step_id": "eacb6411",
+  "timestamp": "2026-01-15T10:58:44.355772",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3627.4471282958984,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot MAP and SBP trends over the last 12 hours on the same axes, highlighting periods where MAP < 65 mmHg or SBP < 70 mmHg.",
+      "Calculate the rolling 1-hour standard deviation of Heart Rate (HR) over the 12-hour period.",
+      "Plot the scatter plot of Heart Rate (HR) vs Systolic Blood Pressure (SBP) over the last 12 hours, colored by the rolling 1-hour standard deviation of MAP."
+    ]
+  },
+  "duration_ms": 0.0
+}

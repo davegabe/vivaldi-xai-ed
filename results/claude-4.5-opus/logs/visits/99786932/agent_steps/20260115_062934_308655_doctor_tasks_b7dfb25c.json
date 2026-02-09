@@ -1,0 +1,17 @@
+{
+  "step_id": "b7dfb25c",
+  "timestamp": "2026-01-15T06:29:34.308655",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 7876.317501068115,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a dual-axis time series plot showing HR and MAP over the full observation period to assess whether HR rises compensatorily as MAP falls (septic shock) or remains inappropriately stable/low during hypotensive episodes (cardiogenic/hemorrhagic component)",
+      "Generate a time-aligned plot isolating all SpO2 values below 90% with concurrent HR and RR values in a 10-minute window around each event to characterize whether desaturation episodes trigger appropriate compensatory tachycardia and tachypnea or paradoxical HR depression",
+      "Plot pulse pressure (SBP minus DBP) over time with a rolling 30-minute standard deviation overlay to assess whether PP remains fixed and narrow (suggesting cardiogenic low-output state) or shows variability with resuscitation efforts (suggesting volume-responsive distributive shock)"
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "step_id": "926a6408",
+  "timestamp": "2026-01-15T07:04:33.366469",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99973518",
+    "chief_complaint": "SHORTNESS OF BREATH",
+    "has_vitals": true,
+    "prompt_length": 3831
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 2,
+    "pain_score": 2,
+    "ed_los": 8.0,
+    "shock_index": 0.9769230769230769,
+    "success": true
+  },
+  "duration_ms": 37711.48109436035
+}

@@ -1,0 +1,2 @@
+[server]
+folderWatchBlacklist = ['results', 'venv']

@@ -1,0 +1,16 @@
+{
+  "step_id": "aa325452",
+  "timestamp": "2026-01-15T06:06:33.255851",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient is a 69-year-old female w"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nThe assessment relies too heavily on the *mean* Heart Rate (69 bpm) to rule out uncompens",
+    "success": true
+  },
+  "duration_ms": 23933.944940567017
+}

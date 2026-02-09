@@ -1,0 +1,13 @@
+{
+  "step_id": "3ea5619c",
+  "timestamp": "2026-01-15T06:13:28.315598",
+  "agent_name": "orchestrator",
+  "input_data": {},
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "triage_context": "49-year-old Female with a past medical history of major depressive disorder, anxiety, chronic pain, and previous TCA poisoning on Sertraline, Trazodone, and Gabapentin. Presents with Drug Overdose. Patient is significantly tachycardic (Mean HR 132 bpm) and has exhibited SpO2 desaturation (low 84%). Specific risks include Serotonin Syndrome (given polypharmacy and tachycardia), respiratory depression, and aspiration risk due to potential altered mental status.\n\n## Triage Vitals Threshold Rationale\nHeart rate thresholds are significantly elevated (Normal High 135, Warning High 150) to accommodate presenting tachycardia (Mean 132) while alerting to worsening toxicity or cardiovascular collapse. Temperature thresholds are lowered (Normal Low 35.5\u00b0C) as the statistical mean (35.75\u00b0C) suggests axillary measurement or drug-induced mild hypothermia. SpO2 warning is set at 90% due to documented desaturation (84%) and respiratory depression risk from overdose. Respiratory rate upper limits are extended to monitor for compensatory tachypnea or agitation."
+  },
+  "duration_ms": 0.0
+}

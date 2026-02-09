@@ -1,0 +1,98 @@
+{
+  "step_id": "8660ab4d",
+  "timestamp": "2026-01-15T11:00:40.896800",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99973518"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.1,
+      "shock_index_interpretation": "HIGH (1.10), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 72.7,
+      "map_interpretation": "Normal (73 mmHg), within reference range 65-100 mmHg. Adequate perfusion pressure maintained.",
+      "pulse_pressure": 26.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=92, RR=22. Associated with poor outcomes in sepsis.",
+      "sirs": 1,
+      "spo2_trend": {
+        "first": 94.6,
+        "last": 100.0,
+        "min": 89.1,
+        "mean": 95.1,
+        "slope": 0.118,
+        "r_squared": 0.578,
+        "trend_pct": 7.07
+      },
+      "hr_volatility": {
+        "dispersion_ms": 81.05,
+        "rmssd_ms": 26.18,
+        "hr_std_bpm": 9.81,
+        "hr_range_bpm": 31.7,
+        "n_samples": 54,
+        "data_density": "sparse"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "56-year-old Male with a complex past medical history including intracranial injury, pneumonia, kidney calculus, GERD, altered mental status, multiple infections (UTI, sepsis, respiratory failure, mycobacterial), paraplegia, tracheostomy, bronchiectasis, and history of coma. He is on medications including albuterol, amantadine, aspirin, and simethicone. Presents with shortness of breath. Key risks include potential for respiratory compromise due to tracheostomy, bronchiectasis, history of respiratory failure, and altered mental status.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 70.0,
+          "high": 130.0
+        },
+        "dbp": {
+          "low": 40.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 28.0
+        },
+        "spo2": {
+          "low": 92.0,
+          "high": 98.0
+        },
+        "temp": {
+          "low": 36.5,
+          "high": 38.0
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 69.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 67.0,
+          "high": 120.0
+        },
+        "dbp": {
+          "low": 39.0,
+          "high": 103.0
+        },
+        "rr": {
+          "low": 17.0,
+          "high": 34.0
+        },
+        "spo2": {
+          "low": 89.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 36.7,
+          "high": 38.3
+        }
+      },
+      "rationale": "The patient's vital signs show variability. Heart rate ranges from 69 to 100 bpm, Systolic BP from 67 to 120 mmHg, Diastolic BP from 39 to 103 mmHg, Respiratory Rate from 17 to 34 bpm, SpO2 from 89.1% to 100%, and Temperature from 36.7\u00b0C to 38.3\u00b0C. Given the history of respiratory issues (pneumonia, respiratory failure, bronchiectasis, tracheostomy) and altered mental status, respiratory rate and SpO2 are particularly important. The thresholds are set based on the observed ranges, with normal ranges defined conservatively within the patient's typical values. Warning thresholds are slightly outside the normal range to indicate potential deterioration. The temperature range suggests readings might be axillary or peripheral, so the fever threshold is set conservatively at 38.0\u00b0C."
+    },
+    "success": true
+  },
+  "duration_ms": 21997.817039489746
+}

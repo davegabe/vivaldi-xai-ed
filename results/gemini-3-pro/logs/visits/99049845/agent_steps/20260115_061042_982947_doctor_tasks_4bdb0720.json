@@ -1,0 +1,17 @@
+{
+  "step_id": "4bdb0720",
+  "timestamp": "2026-01-15T06:10:42.982947",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 20136.690855026245,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Generate a scatter plot of Heart Rate vs Systolic BP to assess hemodynamic coupling and distinguish shock from autonomic instability.",
+      "Plot the Shock Index (HR divided by SBP) over time to distinguish transient spikes from sustained septic deterioration.",
+      "Plot Pulse Pressure (SBP minus DBP) over time to evaluate for widening (suggesting intracranial pathology) or narrowing (suggesting shock/PE)."
+    ]
+  },
+  "duration_ms": 0.0
+}

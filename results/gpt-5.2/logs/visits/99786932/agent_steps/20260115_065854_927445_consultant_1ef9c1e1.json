@@ -1,0 +1,16 @@
+{
+  "step_id": "1ef9c1e1",
+  "timestamp": "2026-01-15T06:58:54.927445",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n79F with extreme frailty and multiple"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYou\u2019re appropriately anchored on septic shock physiology, but the vitals pattern has **tw",
+    "success": true
+  },
+  "duration_ms": 22698.43053817749
+}

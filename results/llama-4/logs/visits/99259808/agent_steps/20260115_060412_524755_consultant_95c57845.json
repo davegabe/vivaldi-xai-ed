@@ -1,0 +1,16 @@
+{
+  "step_id": "95c57845",
+  "timestamp": "2026-01-15T06:04:12.524755",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient is a 69-year-old female w"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nThe Doctor's assessment is thorough, considering the patient's history and current presen",
+    "success": true
+  },
+  "duration_ms": 2534.5802307128906
+}

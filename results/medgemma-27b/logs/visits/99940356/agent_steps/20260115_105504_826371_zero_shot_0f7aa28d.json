@@ -1,0 +1,22 @@
+{
+  "step_id": "0f7aa28d",
+  "timestamp": "2026-01-15T10:55:04.826371",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99940356",
+    "chief_complaint": "GENERAL WEAKNESS",
+    "has_vitals": true,
+    "prompt_length": 3226
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 3,
+    "pain_score": 1,
+    "ed_los": 8.0,
+    "shock_index": 0.74,
+    "success": true
+  },
+  "duration_ms": 31723.718404769897
+}

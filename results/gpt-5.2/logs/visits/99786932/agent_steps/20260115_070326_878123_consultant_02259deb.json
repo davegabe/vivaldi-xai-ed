@@ -1,0 +1,16 @@
+{
+  "step_id": "02259deb",
+  "timestamp": "2026-01-15T07:03:26.878123",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe new rolling MAP/hypoperfusion-bur"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour working frame (sepsis with mixed distributive + cardiogenic/limited reserve) is plau",
+    "success": true
+  },
+  "duration_ms": 31266.414165496826
+}

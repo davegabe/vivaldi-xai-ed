@@ -1,0 +1,22 @@
+{
+  "step_id": "3165c7ce",
+  "timestamp": "2026-01-15T11:01:11.257398",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99049845",
+    "chief_complaint": "ACUTE NEUROLOGICAL PROBLEM",
+    "has_vitals": true,
+    "prompt_length": 1857
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 3,
+    "pain_score": 0,
+    "ed_los": 8.0,
+    "shock_index": 0.92,
+    "success": true
+  },
+  "duration_ms": 26094.16651725769
+}

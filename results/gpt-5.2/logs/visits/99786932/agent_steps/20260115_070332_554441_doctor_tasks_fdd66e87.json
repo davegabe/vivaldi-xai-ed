@@ -1,0 +1,17 @@
+{
+  "step_id": "fdd66e87",
+  "timestamp": "2026-01-15T07:03:32.554441",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5675.806045532227,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot a 3-panel Temp\u2013hemodynamics coupling figure: (1) Temp vs time with rolling median and gap markers; (2) HR vs Temp scatter with LOESS/linear fit, points colored by time, and report Spearman \u03c1 plus fitted slope; (3) MAP distributions by Temp tertiles (violin/box) and report \u0394MAP (coldest\u2013warmest) with effect size (Cliff\u2019s delta or Cohen\u2019s d).",
+      "Compute RR\u2013SpO\u2082 cross-correlation function (CCF) for lags \u221210 to +10 minutes on synchronized/regularized data; report peak correlation, lag at peak, and whether coupling differs during periods with MAP<65 vs MAP\u226565.",
+      "Plot rolling respiratory instability alongside perfusion: 15-min rolling RR SD and RR coefficient-of-variation over time with overlaid rolling SpO\u2082 median and rolling %MAP<65, and flag intervals of bradypnea (RR<10) or low RR variability (CV below 10th percentile) concurrent with hypotension/hypothermia."
+    ]
+  },
+  "duration_ms": 0.0
+}

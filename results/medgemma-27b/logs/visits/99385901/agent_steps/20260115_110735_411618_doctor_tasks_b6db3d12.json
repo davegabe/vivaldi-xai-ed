@@ -1,0 +1,17 @@
+{
+  "step_id": "b6db3d12",
+  "timestamp": "2026-01-15T11:07:35.411618",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3086.205005645752,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot Heart Rate (bpm) vs. Systolic Blood Pressure (mmHg) over time to assess the relationship between cardiac output and perfusion pressure.",
+      "Plot Respiratory Rate (brpm) vs. Heart Rate (bpm) over time to evaluate for disproportionate increases suggestive of PE or respiratory distress.",
+      "Plot Temperature (\u00b0C) over time to analyze the pattern of fever (onset, trend, spikes)."
+    ]
+  },
+  "duration_ms": 0.0
+}

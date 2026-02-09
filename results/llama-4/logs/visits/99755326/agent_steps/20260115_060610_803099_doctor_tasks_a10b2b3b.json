@@ -1,0 +1,17 @@
+{
+  "step_id": "a10b2b3b",
+  "timestamp": "2026-01-15T06:06:10.803099",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 857.9244613647461,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot shock index over time to assess for trends or changes in the patient's hemodynamic state",
+      "Calculate the correlation between heart rate and systolic blood pressure to evaluate for potential autonomic dysfunction",
+      "Plot the rolling standard deviation of temperature to assess for any variability or trends that might be indicative of infection or sepsis"
+    ]
+  },
+  "duration_ms": 0.0
+}

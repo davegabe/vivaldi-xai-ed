@@ -1,0 +1,22 @@
+{
+  "step_id": "32bfe6fa",
+  "timestamp": "2026-01-15T06:51:09.098387",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99755326",
+    "chief_complaint": "DRUG OVERDOSE",
+    "has_vitals": true,
+    "prompt_length": 3655
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 2,
+    "pain_score": 2,
+    "ed_los": 8.0,
+    "shock_index": 1.16,
+    "success": true
+  },
+  "duration_ms": 29035.820484161377
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "a4f00ed8",
+  "timestamp": "2026-01-15T11:07:53.427550",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3409.442186355591,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot Heart Rate (HR) against Mean Arterial Pressure (MAP) over time. Look for any correlation or pattern between the tachycardia and the elevated MAP.",
+      "Calculate the rolling standard deviation of Heart Rate over a 5-minute window and plot it against time. This will visualize the HR volatility trend.",
+      "Plot the difference between Systolic BP and Diastolic BP (Pulse Pressure) over time. Assess if the pulse pressure changes correlate with changes in HR or RR."
+    ]
+  },
+  "duration_ms": 0.0
+}

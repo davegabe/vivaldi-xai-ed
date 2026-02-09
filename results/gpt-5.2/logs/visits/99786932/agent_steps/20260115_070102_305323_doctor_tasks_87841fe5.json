@@ -1,0 +1,17 @@
+{
+  "step_id": "87841fe5",
+  "timestamp": "2026-01-15T07:01:02.305323",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 6340.330362319946,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot rolling MAP median with rolling IQR (15-min window) over time, and in the same figure add a second panel showing rolling % of readings with MAP<65 and MAP<60 (15-min window).",
+      "Plot MAP vs pulse pressure (SBP-DBP) scatter with points colored by time and add 2D density contours to detect banding/modes consistent with cuff artifact vs physiologic states.",
+      "Cluster temperature values into 2\u20133 groups using Gaussian mixture on Temp only, then plot Temp vs time colored by cluster and overlay (separate panel) MAP distributions by Temp cluster (box/violin) to test multimodality and coherence with hypotension."
+    ]
+  },
+  "duration_ms": 0.0
+}

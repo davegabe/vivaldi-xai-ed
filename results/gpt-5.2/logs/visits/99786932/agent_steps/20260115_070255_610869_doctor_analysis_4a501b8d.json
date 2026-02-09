@@ -1,0 +1,13 @@
+{
+  "step_id": "4a501b8d",
+  "timestamp": "2026-01-15T07:02:55.610869",
+  "agent_name": "doctor_analysis",
+  "input_data": {},
+  "llm_calls": 33179.12554740906,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text": "# Assessment\nThe new rolling MAP/hypoperfusion-burden plot shows **sustained hemodynamic vulnerabili"
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "step_id": "6d9c0fdf",
+  "timestamp": "2026-01-15T07:30:23.959976",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nNew vitals synchronization adds impor"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour narrative is internally consistent but still leans toward **\u201csinus tachy + brief obs",
+    "success": true
+  },
+  "duration_ms": 20145.550966262817
+}

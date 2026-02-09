@@ -1,0 +1,16 @@
+{
+  "step_id": "f0187bbe",
+  "timestamp": "2026-01-15T07:16:50.539703",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n80M with major cardiopulmonary reserv"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour sepsis/high-risk shock framing is appropriate, but the plan is still **too anchored ",
+    "success": true
+  },
+  "duration_ms": 23248.183012008667
+}

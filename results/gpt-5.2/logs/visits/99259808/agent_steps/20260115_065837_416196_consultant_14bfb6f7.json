@@ -1,0 +1,16 @@
+{
+  "step_id": "14bfb6f7",
+  "timestamp": "2026-01-15T06:58:37.416196",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n69F with history of severe prior AKI "
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour working frame is \u201cmechanical fall + possible artifact hypoxemia,\u201d but the vital-sign",
+    "success": true
+  },
+  "duration_ms": 19378.402948379517
+}

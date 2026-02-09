@@ -1,0 +1,17 @@
+{
+  "step_id": "42622d26",
+  "timestamp": "2026-01-15T06:48:10.957293",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5498.244524002075,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot heart rate against MAP over time as a dual-axis time series to assess whether tachycardia is maintaining or failing to maintain perfusion (HR-MAP coupling analysis)",
+      "Plot pulse pressure (SBP minus DBP) over time with temperature overlaid as secondary axis to determine if pulse pressure widens with fever (septic/distributive) or remains narrow (cardiogenic/fixed output)",
+      "Calculate and plot rolling 15-minute heart rate variability (standard deviation) over time to detect episodic instability or arrhythmia-like patterns that could explain hemodynamic fluctuations"
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "step_id": "e3116aaa",
+  "timestamp": "2026-01-15T06:28:02.593763",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99786932",
+    "chief_complaint": "BLOOD INFECTION",
+    "has_vitals": true,
+    "prompt_length": 3796
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 2,
+    "pain_score": 2,
+    "ed_los": 8.5,
+    "shock_index": 0.93,
+    "success": true
+  },
+  "duration_ms": 36344.97141838074
+}

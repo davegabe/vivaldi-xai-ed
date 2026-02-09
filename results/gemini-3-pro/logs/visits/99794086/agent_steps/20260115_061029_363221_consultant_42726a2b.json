@@ -1,0 +1,16 @@
+{
+  "step_id": "42726a2b",
+  "timestamp": "2026-01-15T06:10:29.363221",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient is an 85-year-old male pr"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nWhile the assessment of \"Compensated Shock\" is sound based on the means, it dangerously o",
+    "success": true
+  },
+  "duration_ms": 30260.361433029175
+}

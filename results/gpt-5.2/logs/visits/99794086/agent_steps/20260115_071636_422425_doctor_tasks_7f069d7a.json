@@ -1,0 +1,17 @@
+{
+  "step_id": "7f069d7a",
+  "timestamp": "2026-01-15T07:16:36.422425",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3479.189395904541,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot time-aligned Shock Index (HR/SBP) and Pulse Pressure over time with points colored by SBP bins (<80, 80\u201390, >90) and add a 10-minute rolling median line for both metrics.",
+      "Create an SpO2 hypoxemia episode plot marking episodes with SpO2 <92% for \u22652 consecutive readings and separately <88% for \u22652 readings; overlay HR and RR traces \u00b110 minutes around each episode.",
+      "Plot an SpO2 distribution histogram focused on 85\u2013100% (use clipped range and log-scaled counts) to show whether low values (including 81%) form a tail versus a single outlier."
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "step_id": "1b0c5bb2",
+  "timestamp": "2026-01-15T06:14:25.128818",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient is a 49-year-old female p"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nThe assessment appropriately identifies the hyperdynamic state but may be **over-indexing",
+    "success": true
+  },
+  "duration_ms": 25818.839073181152
+}

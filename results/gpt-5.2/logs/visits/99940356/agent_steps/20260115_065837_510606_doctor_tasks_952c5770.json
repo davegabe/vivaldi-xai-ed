@@ -1,0 +1,17 @@
+{
+  "step_id": "952c5770",
+  "timestamp": "2026-01-15T06:58:37.510606",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 4291.517734527588,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a time-aligned plot of HR, SBP, DBP, MAP, and pulse pressure (SBP\u2212DBP) with temperature overlaid and mark hypotension (SBP<80 or MAP<65) intervals.",
+      "Generate a scatter/hexbin of HR vs SBP colored by temperature and add overall plus rolling-window correlation coefficients (e.g., 5-sample window) to quantify HR\u2013SBP coupling.",
+      "Plot rolling shock index (HR/SBP) and rolling MAP with annotations for episodes (SI>0.9, HR>100, SBP<80, MAP<65) and report episode counts plus longest consecutive run-length for each threshold."
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "step_id": "557a1b46",
+  "timestamp": "2026-01-15T06:49:21.718021",
+  "agent_name": "synthesizer",
+  "input_data": {
+    "visit_id": "99385901",
+    "iteration": 1,
+    "num_calculations": 14
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "assessment_length": 376,
+    "esi_level": 2,
+    "success": true
+  },
+  "duration_ms": 26672.260761260986
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "71ca10c0",
+  "timestamp": "2026-01-15T07:00:23.780745",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 4929.399728775024,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a phase-space scatter: Pulse Pressure (SBP-DBP) vs MAP, points colored by Temperature and sized by HR, with quadrants annotated (low MAP<65 with wide vs narrow PP) and a summary table of time spent per quadrant plus median HR and Temperature per quadrant.",
+      "Detect abrupt HR step-change events: compute \u0394HR between consecutive samples, flag events where |\u0394HR|>20 bpm, and quantify associated \u0394SBP and \u0394MAP within the same interval (median and IQR) plus event count and timestamps.",
+      "Plot a time-aligned event raster overlay on the existing vitals panel marking flagged HR step-change events, and highlight those with concurrent MAP<65 or SBP drops \u226520 mmHg to distinguish paroxysmal instability from gradual compensatory tachycardia."
+    ]
+  },
+  "duration_ms": 0.0
+}

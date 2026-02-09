@@ -1,0 +1,16 @@
+{
+  "step_id": "0083b22d",
+  "timestamp": "2026-01-15T07:00:55.964602",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nReview of the new visuals:\n\n- **Event"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour synthesis is strong for **mixed septic + cardiogenic/limited chronotropic response**",
+    "success": true
+  },
+  "duration_ms": 27220.174551010132
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "24de044d",
+  "timestamp": "2026-01-15T07:20:51.077247",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5173.782825469971,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a combined figure with time-aligned HR and SBP (and MAP if available) traces; annotate hypotensive windows (SBP<90) and compute/plot HR\u2013SBP cross-correlation for lags \u22125 to +5 minutes separately for hypotensive vs non-hypotensive segments.",
+      "Compute rolling 2\u20135 minute differences (\u0394SBP, \u0394HR) and generate a \u0394HR vs \u0394SBP quadrant scatter highlighting (a) SBP drops without HR rise (\u0394SBP<0, \u0394HR\u22640) and (b) HR surges preceding SBP drops; include point density and color by contemporaneous shock index.",
+      "Build a hemodynamic lability/state analysis: calculate rolling median and rolling IQR (or STD) for SBP and DBP plus rolling pulse pressure and shock index, then run k-means clustering on [SBP, DBP, PP, HR, SI] and plot a time-ordered state transition/phase plot with arrows and cluster occupancy percentages."
+    ]
+  },
+  "duration_ms": 0.0
+}

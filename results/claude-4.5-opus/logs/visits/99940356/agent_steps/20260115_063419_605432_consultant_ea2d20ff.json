@@ -1,0 +1,16 @@
+{
+  "step_id": "ea2d20ff",
+  "timestamp": "2026-01-15T06:34:19.605432",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n\nThis is a critically ill 82-year-old"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\n\nThe Doctor's assessment is clinically sound but suffers from **anchoring bias on uroseps",
+    "success": true
+  },
+  "duration_ms": 25422.16420173645
+}

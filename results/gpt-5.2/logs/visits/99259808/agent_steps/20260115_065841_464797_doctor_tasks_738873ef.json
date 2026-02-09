@@ -1,0 +1,17 @@
+{
+  "step_id": "738873ef",
+  "timestamp": "2026-01-15T06:58:41.464797",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 4048.309564590454,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot event-locked desaturation episodes: SpO\u2082 time axis with segments <92% and <88% highlighted, overlaid with HR and RR on the same time axis.",
+      "Create an episode summary table for each SpO\u2082 <92% event: start/end time, nadir SpO\u2082, minutes below 92% and 88%, \u0394HR and \u0394RR from 2 minutes pre-event baseline to event nadir.",
+      "Plot coupling diagnostics: rolling correlation (and best-lag cross-correlation within \u00b12 minutes) for SpO\u2082 vs RR and SpO\u2082 vs HR using a 10\u201320 sample window (or nearest to 5 minutes), to identify consistent physiologic co-movement vs artifact."
+    ]
+  },
+  "duration_ms": 0.0
+}

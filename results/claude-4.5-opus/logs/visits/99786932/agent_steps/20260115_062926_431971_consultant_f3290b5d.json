@@ -1,0 +1,16 @@
+{
+  "step_id": "f3290b5d",
+  "timestamp": "2026-01-15T06:29:26.431971",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n\nThis is a critically ill 79-year-old"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\n\nThe Doctor's assessment correctly identifies the severity of this presentation and appro",
+    "success": true
+  },
+  "duration_ms": 33468.42265129089
+}

@@ -1,0 +1,98 @@
+{
+  "step_id": "67b54d73",
+  "timestamp": "2026-01-15T06:51:25.142205",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99755326"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.048,
+      "shock_index_interpretation": "HIGH (1.05), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 120.3,
+      "map_interpretation": "Elevated (120 mmHg), above reference range (65-100 mmHg). Consider hypertensive state.",
+      "pulse_pressure": 10.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=100, RR=27. Associated with poor outcomes in sepsis.",
+      "sirs": 2,
+      "spo2_trend": {
+        "first": 92.8,
+        "last": 98.0,
+        "min": 84.1,
+        "mean": 98.2,
+        "slope": 0.0429,
+        "r_squared": 0.17,
+        "trend_pct": 3.65
+      },
+      "hr_volatility": {
+        "dispersion_ms": 29.56,
+        "rmssd_ms": 6.54,
+        "hr_std_bpm": 9.18,
+        "hr_range_bpm": 35.7,
+        "n_samples": 84,
+        "data_density": "moderate"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "49-year-old Female with a past medical history of major depressive disorder, anxiety disorder, prior tricyclic antidepressant poisoning, chronic pain, and significant trauma history (motor vehicle collision with multiple fractures including acetabulum, occipital condyle, rib, lumbar vertebra, and pubis with intracranial injury). Currently on trazodone, sertraline, and gabapentin for psychiatric conditions. Presents with DRUG OVERDOSE. HIGH RISK: Patient has history of prior overdose/poisoning, is on multiple serotonergic medications (trazodone + sertraline) creating serotonin syndrome risk, and gabapentin which can cause respiratory depression in overdose. Current vitals show persistent tachycardia (mean HR 132) which may indicate sympathomimetic toxidrome, serotonin syndrome, or compensatory response. Temperature readings (mean 35.75\u00b0C, range 35.5-36.5\u00b0C) suggest axillary/peripheral measurement method - lower fever threshold should be applied.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 90.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 60.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 20.0
+        },
+        "spo2": {
+          "low": 94.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.0,
+          "high": 37.5
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 130.0
+        },
+        "sbp": {
+          "low": 80.0,
+          "high": 160.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 100.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 24.0
+        },
+        "spo2": {
+          "low": 90.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 34.5,
+          "high": 38.0
+        }
+      },
+      "rationale": "Thresholds are set conservatively given drug overdose presentation with multiple psychiatric medications. HR upper warning set at 130 bpm acknowledging her baseline tachycardia (mean 132) while maintaining vigilance for worsening - values above this require immediate attention for possible serotonin syndrome, arrhythmia, or hemodynamic instability. SpO2 warning threshold at 90% is critical given gabapentin's respiratory depressant effects in overdose. Blood pressure ranges account for potential hypotension from trazodone/sertraline or hypertension from serotonergic excess. Temperature thresholds adjusted downward (fever threshold ~37.5\u00b0C) given apparent axillary measurement pattern, with hyperthermia >38\u00b0C being critical for serotonin syndrome detection. Respiratory rate closely monitored given CNS depressant overdose risk."
+    },
+    "success": true
+  },
+  "duration_ms": 16043.132066726685
+}

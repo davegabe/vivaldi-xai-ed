@@ -1,0 +1,17 @@
+{
+  "step_id": "5b8cb4f5",
+  "timestamp": "2026-01-15T07:02:38.872557",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5808.234930038452,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a time-aligned hemodynamic phenotype plot overlaying MAP, DBP, and Pulse Pressure (SBP\u2212DBP) with shaded regions for MAP<65, DBP<45, and PP<30, and annotate contiguous episodes meeting each criterion.",
+      "Generate a 2D hexbin (or density) plot of DBP vs Pulse Pressure, colored by temperature, and report % time in phenotype bins: (MAP<65 & DBP<45 & PP\u226530), (MAP<65 & PP<30), (MAP\u226565).",
+      "Detect HR step-change events (e.g., \u0394HR\u226530 bpm within one sample) and produce an event-centered triggered-average plot (\u00b12 samples) of HR, MAP, SBP, and Pulse Pressure, plus a table of % events with concurrent MAP drop \u226510 mmHg or PP change \u226510 mmHg."
+    ]
+  },
+  "duration_ms": 0.0
+}

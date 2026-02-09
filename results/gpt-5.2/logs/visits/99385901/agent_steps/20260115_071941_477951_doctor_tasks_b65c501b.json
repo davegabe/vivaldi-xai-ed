@@ -1,0 +1,17 @@
+{
+  "step_id": "b65c501b",
+  "timestamp": "2026-01-15T07:19:41.477951",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5351.203918457031,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot phase-space: Pulse Pressure (SBP\u2212DBP) vs MAP, points time-aligned to BP samples and colored by temperature (Temp), and report clustering of low MAP with narrow PP.",
+      "Calculate burden on BP-sampled points: % with MAP<65, % with PP\u226430, and % with MAP<65 & PP\u226430 simultaneously; also compute the longest consecutive run (in minutes) of BP samples with MAP<65 (use sample timestamps).",
+      "Plot RR vs SpO\u2082 scatter time-aligned (nearest-neighbor within a small window), colored by time, and flag/report proportion of points with RR\u226524 while SpO\u2082\u226594 vs points with RR\u226524 and SpO\u2082<94 (disproportionate drive vs hypoxemia-coupled)."
+    ]
+  },
+  "duration_ms": 0.0
+}

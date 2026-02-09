@@ -1,0 +1,16 @@
+{
+  "step_id": "117460a0",
+  "timestamp": "2026-01-15T11:09:14.382179",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient presents with signs conce"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nThe Doctor's assessment correctly identifies the likely cause as a drug overdose, potenti",
+    "success": true
+  },
+  "duration_ms": 16994.78030204773
+}

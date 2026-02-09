@@ -1,0 +1,16 @@
+{
+  "step_id": "eb29c7cf",
+  "timestamp": "2026-01-15T07:16:32.942872",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n85M presenting after a fall with sign"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour framing is appropriately sepsis/aspiration/bleed-aware, but there\u2019s still a major **",
+    "success": true
+  },
+  "duration_ms": 18963.51456642151
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "8b52fcf9",
+  "timestamp": "2026-01-15T07:07:56.814988",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 6688.184976577759,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot event-aligned instability epochs: detect event onset when (RR\u226530 OR SpO2 drop \u22653% in 5 min OR Shock Index\u22651.0 OR MAP<60) with 15 min pre/30 min post; overlay median+IQR trajectories for HR, RR, SpO2, MAP, and pulse pressure to assess stereotyped sequences vs isolated hypotension.",
+      "Plot rolling 10\u201315 min phase-space and coupling: RR vs SpO2 scatter colored by time plus 10\u201315 min rolling correlation; annotate quadrants (RR\u226528 & SpO2\u226594; RR\u226528 & SpO2<94) with dwell-time percentages to quantify \u201ctachypnea disproportionate to hypoxemia.\u201d",
+      "Plot RR\u2013hemodynamics coupling: 10\u201315 min rolling correlation of RR with Shock Index and with MAP (two traces) and a RR vs Shock Index scatter colored by time; test whether rising RR tracks worsening SI/low MAP (PE/systemic compensation) versus decoupled RR (airway-care/autonomic events)."
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "step_id": "5121f093",
+  "timestamp": "2026-01-15T07:16:44.596086",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\n89M with acute neurologic problem and"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour framing appropriately centers \u201ccan\u2019t-miss\u201d neuro catastrophe and sepsis/shock, but i",
+    "success": true
+  },
+  "duration_ms": 22943.54820251465
+}

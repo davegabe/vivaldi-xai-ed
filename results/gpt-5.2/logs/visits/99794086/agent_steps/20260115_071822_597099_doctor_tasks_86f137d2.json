@@ -1,0 +1,17 @@
+{
+  "step_id": "86f137d2",
+  "timestamp": "2026-01-15T07:18:22.597099",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3721.9443321228027,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot time-aligned SBP, DBP, and derived pulse pressure (PP) with markers for SBP<90 episodes; visually assess whether DBP is preserved vs falls with SBP (low-SV vs vasodilatory signature).",
+      "Create a SBP vs DBP phase-space scatter plot with points colored by HR quartiles and sized by PP; add marginal density contours to identify clusters consistent with low-SV (higher DBP + narrow PP) vs vasodilatory (low DBP) states.",
+      "For each SpO2 reading <90%, generate a \u00b110 minute concordance panel (SpO2, HR, RR) and compute \u0394HR and \u0394RR from prior-5-min median to nadir; flag events with inter-reading gaps >2\u00d7 median interval to suggest artifact/telemetry dropout."
+    ]
+  },
+  "duration_ms": 0.0
+}

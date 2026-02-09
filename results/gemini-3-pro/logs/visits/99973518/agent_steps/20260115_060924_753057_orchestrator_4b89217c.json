@@ -1,0 +1,13 @@
+{
+  "step_id": "4b89217c",
+  "timestamp": "2026-01-15T06:09:24.753057",
+  "agent_name": "orchestrator",
+  "input_data": {},
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "triage_context": "56-year-old Male with a complex history of paraplegia, TBI sequelae, tracheostomy dependence, and bronchiectasis on Albuterol and Sodium Chloride. Presents with Shortness of Breath. Patient exhibits baseline hypotension (mean SBP 88) and tachypnea (mean RR 24) consistent with chronic neurogenic and respiratory conditions. Specific risks include aspiration pneumonia, recurrent sepsis, and acute respiratory failure.\n\n## Triage Vitals Threshold Rationale\nThresholds are adjusted for chronic respiratory failure and neurogenic hypotension. SBP normal low is set to 80 mmHg due to a baseline mean of 88 mmHg and history of paraplegia/sepsis. RR range is shifted higher (16-28) to accommodate baseline tachypnea (mean 24) related to bronchiectasis and tracheostomy status. SpO2 target is lowered to 92% to reflect chronic lung disease, while temperature monitoring is strict due to high risk of recurrent sepsis."
+  },
+  "duration_ms": 0.0
+}

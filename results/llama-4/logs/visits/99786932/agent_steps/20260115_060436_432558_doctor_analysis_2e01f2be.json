@@ -1,0 +1,13 @@
+{
+  "step_id": "2e01f2be",
+  "timestamp": "2026-01-15T06:04:36.432558",
+  "agent_name": "doctor_analysis",
+  "input_data": {},
+  "llm_calls": 2758.085012435913,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text": "# Assessment\nThe patient's condition remains critical, with ongoing signs of shock. The shock index "
+  },
+  "duration_ms": 0.0
+}

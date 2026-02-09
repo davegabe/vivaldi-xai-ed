@@ -1,0 +1,22 @@
+{
+  "step_id": "35fba7df",
+  "timestamp": "2026-01-15T11:06:28.725857",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99385901",
+    "chief_complaint": "FEVER",
+    "has_vitals": true,
+    "prompt_length": 3458
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 3,
+    "pain_score": 1,
+    "ed_los": 8.0,
+    "shock_index": 0.92,
+    "success": true
+  },
+  "duration_ms": 28833.01043510437
+}

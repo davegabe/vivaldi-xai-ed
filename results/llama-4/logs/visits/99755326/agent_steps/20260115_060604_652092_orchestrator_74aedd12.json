@@ -1,0 +1,13 @@
+{
+  "step_id": "74aedd12",
+  "timestamp": "2026-01-15T06:06:04.652092",
+  "agent_name": "orchestrator",
+  "input_data": {},
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "triage_context": "49-year-old female with a past medical history of multiple conditions including depression, anxiety, and various injuries, on medications such as traZODone, gabapentin, and sertraline. Presents with drug overdose. The patient is at risk for serotonin syndrome due to her medications and may be immunocompromised due to her complex medical history.\n\n## Triage Vitals Threshold Rationale\nThe patient's vital sign thresholds are generally set to standard ranges due to the lack of specific historical data indicating a need for adjustment. However, the temperature range is considered in the context of potentially being axillary measurements given the low average temperature readings. The patient is on medications that could affect heart rate and blood pressure, but without a clear history of significant cardiovascular issues, standard ranges are applied. The risk of serotonin syndrome is noted due to the patient's medication regimen."
+  },
+  "duration_ms": 0.0
+}

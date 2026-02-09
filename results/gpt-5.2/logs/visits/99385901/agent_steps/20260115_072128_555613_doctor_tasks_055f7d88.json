@@ -1,0 +1,17 @@
+{
+  "step_id": "055f7d88",
+  "timestamp": "2026-01-15T07:21:28.555613",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 4326.502323150635,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot lagged cross-correlation (lags \u221260 to +60 min) between Temp and MAP using nearest-neighbor aligned pairs; annotate peak correlation and its lag, and mark whether MAP<65 clusters on rising vs falling Temp.",
+      "Plot lagged cross-correlation (lags \u221260 to +60 min) between Temp and pulse pressure (SBP\u2212DBP) using nearest-neighbor aligned BP\u2013Temp pairs; annotate peak correlation/lag and highlight lag distribution for narrow PP\u226430 episodes.",
+      "Plot power spectral density (or autocorrelation) of continuous SpO\u2082 and HR time series to detect quasi-periodic cycling (target periods 30\u2013120 s and 2\u201310 min); annotate dominant peaks and compare segments nearest (\u00b110 min) to hypotensive BP timestamps vs non-hypotensive segments."
+    ]
+  },
+  "duration_ms": 0.0
+}

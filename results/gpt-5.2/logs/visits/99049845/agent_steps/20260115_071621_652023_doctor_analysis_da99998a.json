@@ -1,0 +1,13 @@
+{
+  "step_id": "da99998a",
+  "timestamp": "2026-01-15T07:16:21.652023",
+  "agent_name": "doctor_analysis",
+  "input_data": {},
+  "llm_calls": 23439.77952003479,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text": "# Assessment\n89M with acute neurologic problem and history of AMS/prior sepsis. Current vitals profi"
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "step_id": "2da6bbee",
+  "timestamp": "2026-01-15T07:00:18.850958",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nReviewing the new plots:\n\n- **Rolling"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour sepsis framing is well-supported by fever + intermittent hypoperfusion physiology, b",
+    "success": true
+  },
+  "duration_ms": 21552.384614944458
+}

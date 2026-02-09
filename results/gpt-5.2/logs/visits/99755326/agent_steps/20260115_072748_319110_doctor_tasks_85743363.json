@@ -1,0 +1,17 @@
+{
+  "step_id": "85743363",
+  "timestamp": "2026-01-15T07:27:48.319110",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 4061.392307281494,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot synchronized time series of HR, SBP, DBP with derived shock index (HR/SBP) and pulse pressure (SBP\u2212DBP), including 5\u201310 min rolling median for shock index and pulse pressure.",
+      "Create HR vs SBP scatter colored by time with an overlaid trajectory line (connect points in time order) to detect looping/branching patterns suggestive of paroxysmal dysrhythmia or evolving shock.",
+      "For each detected SpO2<92% event, plot event-locked traces (\u221210 to +10 min) of SpO2 and RR variability (rolling variance or RMSSD) to screen for patterned respiratory instability despite normal/high RR."
+    ]
+  },
+  "duration_ms": 0.0
+}

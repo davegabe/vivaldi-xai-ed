@@ -1,0 +1,85 @@
+{
+  "run_id": "93db7888",
+  "experiment_name": "unified_comparison",
+  "started_at": "2026-01-15T06:27:24.392252",
+  "completed_at": "2026-01-15T06:30:57.113573",
+  "config": {
+    "model_name": "claude-4.5-opus",
+    "sample_size": 1,
+    "dataset_path": "/home/dave/Documents/Projects/XAI-agent-pulse/dataset/visits.csv",
+    "random_seed": 444,
+    "architecture": "agentic_coder"
+  },
+  "model_config": {},
+  "random_seed": 444,
+  "sample_size": 1,
+  "visit_ids": [
+    "99786932",
+    "99786932",
+    "99786932",
+    "99786932",
+    "99786932"
+  ],
+  "approach": "both",
+  "metrics": {
+    "zs_esi_accuracy": 0.0,
+    "zs_esi_mae": 1.0,
+    "zs_esi_rmse": 1.0,
+    "zs_esi_precision": 0.0,
+    "zs_esi_recall": 0.0,
+    "zs_esi_f1": 0.0,
+    "zs_pain_mae": 2.0,
+    "zs_pain_rmse": 2.0,
+    "zs_los_mae": 0.05000000000000071,
+    "zs_los_rmse": 0.05000000000000071,
+    "zs_si_mae": 0.19499999999999995,
+    "ag_esi_accuracy": 1.0,
+    "ag_esi_mae": 0.0,
+    "ag_esi_rmse": 0.0,
+    "ag_esi_precision": 1.0,
+    "ag_esi_recall": 1.0,
+    "ag_esi_f1": 1.0,
+    "ag_pain_mae": 2.0,
+    "ag_pain_rmse": 2.0,
+    "ag_los_mae": 1.4499999999999993,
+    "ag_los_rmse": 1.4499999999999993,
+    "ag_si_mae": 0.0,
+    "ag_verified_rate": 1.0,
+    "efficiency": {
+      "prompt_tokens": 32953,
+      "completion_tokens": 13620,
+      "cost_usd": 0.5052650000000001,
+      "total_duration_seconds": 212.683544
+    }
+  },
+  "agent_steps": [
+    "e3116aaa",
+    "b06c17df",
+    "5ac61465",
+    "41023592",
+    "f3290b5d",
+    "b7dfb25c",
+    "887cbfc0"
+  ],
+  "llm_calls": [
+    "a53c56e0",
+    "766dcff1",
+    "fb9642dd",
+    "c07c5255",
+    "40e4c469",
+    "5c2a0563",
+    "6868845e",
+    "62e70826",
+    "9b3643ce",
+    "88012d42"
+  ],
+  "git_commit": "497944dd",
+  "python_version": "3.12.3",
+  "package_versions": {
+    "langchain": "1.2.0",
+    "openai": "2.14.0",
+    "pandas": "2.3.3",
+    "numpy": "2.4.0",
+    "scikit-learn": "1.8.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "step_id": "4a8feb1c",
+  "timestamp": "2026-01-15T07:18:37.008933",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nReviewed the synchronized overlay and"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour read appropriately centers \u201cundifferentiated shock + intermittent respiratory compro",
+    "success": true
+  },
+  "duration_ms": 21776.779174804688
+}

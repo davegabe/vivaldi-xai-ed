@@ -1,0 +1,17 @@
+{
+  "step_id": "e81eda5f",
+  "timestamp": "2026-01-15T07:21:49.073863",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5383.996486663818,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot event-aligned SBP<90 (\u22652 min) episodes with SBP, DBP, derived MAP=(SBP+2\u00d7DBP)/3, and pulse pressure (SBP\u2212DBP) from \u22125 to +5 min; report % events with artifact flags (DBP>SBP, pulse pressure \u226410, MAP inconsistent).",
+      "Detect all SpO\u2082<90 runs (and separately <80) and plot nadir SpO\u2082 vs drop rate (\u0394SpO\u2082/min into nadir) colored by episode duration; include recovery rate summary to distinguish abrupt artifact-like dips vs physiologic events.",
+      "For each SpO\u2082<90 run, compute \u0394HR and \u0394RR versus baseline (median \u22122 to \u22121 min) and plot nadir SpO\u2082 vs \u0394RR (and/or \u0394HR) with points labeled by whether SBP<90 occurred within \u00b12 min, to test coupling between desaturation, compensatory response, and hypotension."
+    ]
+  },
+  "duration_ms": 0.0
+}

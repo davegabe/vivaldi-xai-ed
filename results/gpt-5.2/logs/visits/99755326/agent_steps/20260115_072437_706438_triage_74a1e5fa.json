@@ -1,0 +1,98 @@
+{
+  "step_id": "74a1e5fa",
+  "timestamp": "2026-01-15T07:24:37.706438",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99755326"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.048,
+      "shock_index_interpretation": "HIGH (1.05), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 120.3,
+      "map_interpretation": "Elevated (120 mmHg), above reference range (65-100 mmHg). Consider hypertensive state.",
+      "pulse_pressure": 10.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=100, RR=27. Associated with poor outcomes in sepsis.",
+      "sirs": 2,
+      "spo2_trend": {
+        "first": 92.8,
+        "last": 98.0,
+        "min": 84.1,
+        "mean": 98.2,
+        "slope": 0.0429,
+        "r_squared": 0.17,
+        "trend_pct": 3.65
+      },
+      "hr_volatility": {
+        "dispersion_ms": 29.56,
+        "rmssd_ms": 6.54,
+        "hr_std_bpm": 9.18,
+        "hr_range_bpm": 35.7,
+        "n_samples": 84,
+        "data_density": "moderate"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "49-year-old female with a past medical history of major depressive disorder/anxiety, chronic pain, prior tricyclic antidepressant (TCA) poisoning/altered mental status, prior significant trauma with intracranial injury and fractures, ventral hernia, and biliary disease status-post cholecystectomy with retained stones/cholangitis history, on sertraline, trazodone, gabapentin, and vitamin D3. Presents with drug overdose. Current vitals trend shows marked tachycardia (HR mean ~133, up to 159) with intermittent hypoxemia (SpO2 nadir ~84%). Temperature readings are consistently low (35.5\u201336.5\u00b0C, mean 35.75\u00b0C), suggesting peripheral/axillary measurement or overdose-related hypothermia\u2014interpret fever thresholds cautiously. Key risks: CNS/respiratory depression and aspiration, dysrhythmia/QRS prolongation and seizures (given prior TCA poisoning history), serotonin toxicity (SSRI + trazodone), and hypotension/arrhythmia in overdose setting.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 100.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 60.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 20.0
+        },
+        "spo2": {
+          "low": 95.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.5,
+          "high": 37.5
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 120.0
+        },
+        "sbp": {
+          "low": 90.0,
+          "high": 160.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 100.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 24.0
+        },
+        "spo2": {
+          "low": 92.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.0,
+          "high": 38.0
+        }
+      },
+      "rationale": "No chronic cardiopulmonary disease or beta-blocker use is documented, so standard adult normal ranges are used. Because this is an overdose presentation with observed sustained tachycardia and episodes of desaturation, warning limits are tightened to flag early deterioration (HR >120, SpO2 <92, RR >24 or <10). Blood pressure thresholds remain conservative to identify overdose-related hypotension or hypertensive agitation. Temperature baseline is consistently low, likely reflecting axillary/peripheral measurement and/or hypothermia risk; therefore low-temperature alerts start at 35.0\u00b0C and fever warning at 38.0\u00b0C, with recommendation to confirm core/oral temp if concern persists."
+    },
+    "success": true
+  },
+  "duration_ms": 15989.803552627563
+}

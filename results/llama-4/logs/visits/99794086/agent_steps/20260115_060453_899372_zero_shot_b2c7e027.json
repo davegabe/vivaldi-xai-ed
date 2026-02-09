@@ -1,0 +1,22 @@
+{
+  "step_id": "b2c7e027",
+  "timestamp": "2026-01-15T06:04:53.899372",
+  "agent_name": "zero_shot",
+  "input_data": {
+    "visit_id": "99794086",
+    "chief_complaint": "FALL",
+    "has_vitals": true,
+    "prompt_length": 1907
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "esi_level": 2,
+    "pain_score": 6,
+    "ed_los": 6.0,
+    "shock_index": 1.02,
+    "success": true
+  },
+  "duration_ms": 7552.977561950684
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "46ced346",
+  "timestamp": "2026-01-15T07:00:52.184825",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5743.216514587402,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot SpO\u2082 artifact-signature panel: (a) value density/histogram, (b) first-difference histogram of \u0394SpO\u2082 per sample, (c) scatter of \u0394SpO\u2082 vs \u0394HR with points colored by \u0394RR; flag drops \u22656%/sample and compare descent vs recovery slopes.",
+      "Plot SpO\u2082 \u201ccliff vs smooth\u201d event morphology: extract windows around all SpO\u2082 <92% events and overlay normalized traces of SpO\u2082, HR, RR aligned to nadir, including per-event max |\u0394SpO\u2082| and time-to-recover-to-95%.",
+      "Plot hemodynamic\u2013respiratory phase-space and BP step-hold overlay: HR vs SpO\u2082 colored by RR with markers at actual BP timestamps; add a time-aligned desat-window composite showing HR/RR/SpO\u2082 plus step-hold MAP (explicit BP measurement markers) to detect coincident low-perfusion states."
+    ]
+  },
+  "duration_ms": 0.0
+}

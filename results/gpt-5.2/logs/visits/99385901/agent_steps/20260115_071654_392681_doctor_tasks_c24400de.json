@@ -1,0 +1,17 @@
+{
+  "step_id": "c24400de",
+  "timestamp": "2026-01-15T07:16:54.392681",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 3852.581739425659,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Create a time-aligned phase-space scatter of HR vs MAP with points colored by time (or temperature if available) and annotate regions where MAP<65 and/or HR>110.",
+      "Compute rolling-window (10\u201315 min) Pearson correlation between HR and MAP; plot correlation vs time and flag intervals with strong inverse coupling (e.g., r<-0.5).",
+      "Detect tachycardia runs where HR>120 for \u22653 consecutive samples; overlay these episodes on MAP (or SBP) time series to quantify concurrent hypotension (e.g., % of episodes with MAP<65 within \u00b12 samples)."
+    ]
+  },
+  "duration_ms": 0.0
+}

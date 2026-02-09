@@ -1,0 +1,98 @@
+{
+  "step_id": "9dac2a89",
+  "timestamp": "2026-01-15T07:04:49.784168",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99973518"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.1,
+      "shock_index_interpretation": "HIGH (1.10), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 72.7,
+      "map_interpretation": "Normal (73 mmHg), within reference range 65-100 mmHg. Adequate perfusion pressure maintained.",
+      "pulse_pressure": 26.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=92, RR=22. Associated with poor outcomes in sepsis.",
+      "sirs": 1,
+      "spo2_trend": {
+        "first": 94.6,
+        "last": 100.0,
+        "min": 89.1,
+        "mean": 95.1,
+        "slope": 0.118,
+        "r_squared": 0.578,
+        "trend_pct": 7.07
+      },
+      "hr_volatility": {
+        "dispersion_ms": 81.05,
+        "rmssd_ms": 26.18,
+        "hr_std_bpm": 9.81,
+        "hr_range_bpm": 31.7,
+        "n_samples": 54,
+        "data_density": "sparse"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "56-year-old male with a past medical history of severe traumatic brain injury with hydrocephalus, paraplegia/reduced mobility, tracheostomy and gastrostomy status, bronchiectasis, pulmonary mycobacterial infection, recurrent aspiration pneumonitis/pneumonia, prior acute respiratory failure with hypoxia, severe sepsis/septic shock, hyponatremia, nephrolithiasis/hematuria, GERD, and catheter-associated UTIs on albuterol nebulizer, amantadine, aspirin, sodium chloride tablets, and simethicone. Presents with shortness of breath. High risk for hypoxic respiratory failure due to chronic lung disease (bronchiectasis), aspiration (G-tube, debility), and trach-related secretion burden; also at elevated infection/sepsis risk (history of severe sepsis, catheter-associated UTI, pulmonary mycobacterial infection). Neurologic impairment and reduced mobility increase risk of silent aspiration, poor cough, and atypical presentation. Baseline BP appears low-normal (mean SBP ~88) so hypotension thresholds are adjusted but remain conservative given prior septic shock.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 85.0,
+          "high": 120.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 80.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 22.0
+        },
+        "spo2": {
+          "low": 95.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 36.5,
+          "high": 37.8
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 110.0
+        },
+        "sbp": {
+          "low": 75.0,
+          "high": 130.0
+        },
+        "dbp": {
+          "low": 45.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 28.0
+        },
+        "spo2": {
+          "low": 92.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 36.0,
+          "high": 38.0
+        }
+      },
+      "rationale": "Thresholds are centered on standard adult safety ranges but adjusted for this patient\u2019s observed baseline physiology: SBP averages ~88 mmHg with values down to 67, suggesting chronically low pressures (possibly due to autonomic dysfunction/deconditioning), so the normal SBP range is set lower while keeping a conservative warning floor (75) to flag potential shock. SpO2 is set tighter because of the chief complaint and history of bronchiectasis/respiratory failure; readings <92% warrant warning and <90% should be treated as high risk. RR is tightened (normal up to 22) given the mean ~24 and max 34; sustained tachypnea is an early decompensation marker in chronic lung disease/aspiration. Temperature ranges use standard oral equivalents since the distribution (36.7\u201338.3\u00b0C) does not suggest systematically low peripheral readings; fever concern begins around 38.0\u00b0C in this high-infection-risk patient."
+    },
+    "success": true
+  },
+  "duration_ms": 16415.6494140625
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "d538e9a2",
+  "timestamp": "2026-01-15T06:10:50.478381",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 25457.408666610718,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Generate a time-series plot of the rolling Shock Index to distinguish chronic neurogenic physiology from acute decompensation.",
+      "Create a scatter plot of Heart Rate vs. Systolic BP to evaluate the baroreceptor reflex and autonomic function.",
+      "Plot rolling Pulse Pressure over time to verify if the narrow pulse pressure (26 mmHg) is sustained or transient."
+    ]
+  },
+  "duration_ms": 0.0
+}

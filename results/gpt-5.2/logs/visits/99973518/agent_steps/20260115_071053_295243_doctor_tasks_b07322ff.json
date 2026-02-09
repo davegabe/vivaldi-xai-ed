@@ -1,0 +1,17 @@
+{
+  "step_id": "b07322ff",
+  "timestamp": "2026-01-15T07:10:53.295243",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5561.49435043335,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot time-series of z-scored RR, HR, Shock Index (HR/SBP), and SpO2 on a shared x-axis; shade intervals where RR\u226528 AND SpO2\u226594 to quantify \u201chigh drive\u2013low hypoxemia\u201d discordance.",
+      "Plot phase-space scatter of (RR\u00d7Shock Index) vs SpO2 with points colored by time and the 250\u2013270 min window highlighted to look for clustering consistent with obstructive/PE-like discordance.",
+      "Plot hypotension-episode validation panel: SBP, DBP, MAP, pulse pressure plus an overlay of consecutive-run duration below MAP<60 and/or SBP<75 (step/marker track) to distinguish sustained low-perfusion episodes from isolated artifact points."
+    ]
+  },
+  "duration_ms": 0.0
+}

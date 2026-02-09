@@ -1,0 +1,16 @@
+{
+  "step_id": "3f054064",
+  "timestamp": "2026-01-15T07:00:46.441249",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nVitals remain broadly stable: HR **56"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour conclusion \u201csingle brief SpO\u2082 dip + weak HR/RR coupling \u21d2 likely artifact\u201d is plausi",
+    "success": true
+  },
+  "duration_ms": 24043.58696937561
+}

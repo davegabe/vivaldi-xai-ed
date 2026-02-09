@@ -1,0 +1,98 @@
+{
+  "step_id": "5b3eef9a",
+  "timestamp": "2026-01-15T06:06:04.651508",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99755326"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.048,
+      "shock_index_interpretation": "HIGH (1.05), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 120.3,
+      "map_interpretation": "Elevated (120 mmHg), above reference range (65-100 mmHg). Consider hypertensive state.",
+      "pulse_pressure": 10.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=100, RR=27. Associated with poor outcomes in sepsis.",
+      "sirs": 2,
+      "spo2_trend": {
+        "first": 92.8,
+        "last": 98.0,
+        "min": 84.1,
+        "mean": 98.2,
+        "slope": 0.0429,
+        "r_squared": 0.17,
+        "trend_pct": 3.65
+      },
+      "hr_volatility": {
+        "dispersion_ms": 29.56,
+        "rmssd_ms": 6.54,
+        "hr_std_bpm": 9.18,
+        "hr_range_bpm": 35.7,
+        "n_samples": 84,
+        "data_density": "moderate"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "49-year-old female with a past medical history of multiple conditions including depression, anxiety, and various injuries, on medications such as traZODone, gabapentin, and sertraline. Presents with drug overdose. The patient is at risk for serotonin syndrome due to her medications and may be immunocompromised due to her complex medical history.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 100.0
+        },
+        "sbp": {
+          "low": 90.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 60.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 20.0
+        },
+        "spo2": {
+          "low": 95.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.5,
+          "high": 37.5
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 120.0
+        },
+        "sbp": {
+          "low": 80.0,
+          "high": 160.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 100.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 24.0
+        },
+        "spo2": {
+          "low": 92.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.0,
+          "high": 38.0
+        }
+      },
+      "rationale": "The patient's vital sign thresholds are generally set to standard ranges due to the lack of specific historical data indicating a need for adjustment. However, the temperature range is considered in the context of potentially being axillary measurements given the low average temperature readings. The patient is on medications that could affect heart rate and blood pressure, but without a clear history of significant cardiovascular issues, standard ranges are applied. The risk of serotonin syndrome is noted due to the patient's medication regimen."
+    },
+    "success": true
+  },
+  "duration_ms": 6204.186677932739
+}

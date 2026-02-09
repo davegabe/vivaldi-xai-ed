@@ -1,0 +1,17 @@
+{
+  "step_id": "231d1ede",
+  "timestamp": "2026-01-15T07:30:31.136280",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 7175.9374141693115,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot HR tachogram with 1\u20132 min rolling median and rolling IQR (or MAD); compute \u201clocking index\u201d = % time HR within \u00b13 bpm of its local median to assess locked-in tachycardia vs sinus variability.",
+      "Plot HR distribution (histogram or KDE) over the window; quantify peak sharpness (e.g., % samples within 145\u2013155 bpm and within 155\u2013165 bpm) to detect clustering consistent with SVT/atrial flutter 2:1.",
+      "Detect all SpO2 desaturation events using thresholds <94% and <92%; plot event depth vs duration scatter colored by concurrent \u0394HR and \u0394RR from pre-event baseline, and compute lagged \u0394HR\u2013\u0394SpO2 coupling at \u22125/0/+5 min to assess stereotypy and PE vs airway/artifact patterns."
+    ]
+  },
+  "duration_ms": 0.0
+}

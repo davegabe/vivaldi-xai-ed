@@ -1,0 +1,13 @@
+{
+  "step_id": "0df90dd2",
+  "timestamp": "2026-01-15T06:05:16.901220",
+  "agent_name": "doctor_analysis",
+  "input_data": {},
+  "llm_calls": 2954.627275466919,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text": "# Assessment\nThe patient's condition is complex, with a history of multiple serious medical issues, "
+  },
+  "duration_ms": 0.0
+}

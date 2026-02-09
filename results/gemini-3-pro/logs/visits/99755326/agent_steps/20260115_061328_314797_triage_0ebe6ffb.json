@@ -1,0 +1,98 @@
+{
+  "step_id": "0ebe6ffb",
+  "timestamp": "2026-01-15T06:13:28.314797",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99755326"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.048,
+      "shock_index_interpretation": "HIGH (1.05), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 120.3,
+      "map_interpretation": "Elevated (120 mmHg), above reference range (65-100 mmHg). Consider hypertensive state.",
+      "pulse_pressure": 10.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=100, RR=27. Associated with poor outcomes in sepsis.",
+      "sirs": 2,
+      "spo2_trend": {
+        "first": 92.8,
+        "last": 98.0,
+        "min": 84.1,
+        "mean": 98.2,
+        "slope": 0.0429,
+        "r_squared": 0.17,
+        "trend_pct": 3.65
+      },
+      "hr_volatility": {
+        "dispersion_ms": 29.56,
+        "rmssd_ms": 6.54,
+        "hr_std_bpm": 9.18,
+        "hr_range_bpm": 35.7,
+        "n_samples": 84,
+        "data_density": "moderate"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "49-year-old Female with a past medical history of major depressive disorder, anxiety, chronic pain, and previous TCA poisoning on Sertraline, Trazodone, and Gabapentin. Presents with Drug Overdose. Patient is significantly tachycardic (Mean HR 132 bpm) and has exhibited SpO2 desaturation (low 84%). Specific risks include Serotonin Syndrome (given polypharmacy and tachycardia), respiratory depression, and aspiration risk due to potential altered mental status.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 135.0
+        },
+        "sbp": {
+          "low": 90.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 55.0,
+          "high": 95.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 24.0
+        },
+        "spo2": {
+          "low": 94.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.5,
+          "high": 37.5
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 150.0
+        },
+        "sbp": {
+          "low": 85.0,
+          "high": 160.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 110.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 30.0
+        },
+        "spo2": {
+          "low": 90.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.0,
+          "high": 38.0
+        }
+      },
+      "rationale": "Heart rate thresholds are significantly elevated (Normal High 135, Warning High 150) to accommodate presenting tachycardia (Mean 132) while alerting to worsening toxicity or cardiovascular collapse. Temperature thresholds are lowered (Normal Low 35.5\u00b0C) as the statistical mean (35.75\u00b0C) suggests axillary measurement or drug-induced mild hypothermia. SpO2 warning is set at 90% due to documented desaturation (84%) and respiratory depression risk from overdose. Respiratory rate upper limits are extended to monitor for compensatory tachypnea or agitation."
+    },
+    "success": true
+  },
+  "duration_ms": 31319.158792495728
+}

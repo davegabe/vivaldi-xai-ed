@@ -1,0 +1,98 @@
+{
+  "step_id": "7077f280",
+  "timestamp": "2026-01-15T06:05:02.235546",
+  "agent_name": "triage",
+  "input_data": {
+    "visit_id": "99973518"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "safety_metrics": {
+      "shock_index": 1.1,
+      "shock_index_interpretation": "HIGH (1.10), significantly above normal (0.5-0.7). Suggests decompensated shock, immediate intervention needed.",
+      "map_value": 72.7,
+      "map_interpretation": "Normal (73 mmHg), within reference range 65-100 mmHg. Adequate perfusion pressure maintained.",
+      "pulse_pressure": 26.0,
+      "qsofa_score": 2,
+      "qsofa_interpretation": "High Risk (Score 2/3). Criteria met: SBP=92, RR=22. Associated with poor outcomes in sepsis.",
+      "sirs": 1,
+      "spo2_trend": {
+        "first": 94.6,
+        "last": 100.0,
+        "min": 89.1,
+        "mean": 95.1,
+        "slope": 0.118,
+        "r_squared": 0.578,
+        "trend_pct": 7.07
+      },
+      "hr_volatility": {
+        "dispersion_ms": 81.05,
+        "rmssd_ms": 26.18,
+        "hr_std_bpm": 9.81,
+        "hr_range_bpm": 31.7,
+        "n_samples": 54,
+        "data_density": "sparse"
+      }
+    },
+    "context": {
+      "clinical_context_summary": "56-year-old male with a past medical history of intracranial injury, gastrostomy status, pneumonia, kidney calculus, hyponatremia, and acute respiratory failure, among others, on medications including albuterol sulfate, amantadine HCL, and aspirin. Presents with shortness of breath. The patient is at risk for respiratory complications and sepsis due to his complex medical history. He is also at risk for aspiration due to his history of pneumonitis due to inhalation of food and vomit. The patient's tracheostomy status and history of respiratory failure indicate a need for close monitoring of his respiratory status.",
+      "thresholds": {
+        "hr": {
+          "low": 60.0,
+          "high": 120.0
+        },
+        "sbp": {
+          "low": 80.0,
+          "high": 140.0
+        },
+        "dbp": {
+          "low": 50.0,
+          "high": 90.0
+        },
+        "rr": {
+          "low": 12.0,
+          "high": 30.0
+        },
+        "spo2": {
+          "low": 88.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 36.0,
+          "high": 38.0
+        }
+      },
+      "warning_thresholds": {
+        "hr": {
+          "low": 50.0,
+          "high": 130.0
+        },
+        "sbp": {
+          "low": 70.0,
+          "high": 150.0
+        },
+        "dbp": {
+          "low": 40.0,
+          "high": 100.0
+        },
+        "rr": {
+          "low": 10.0,
+          "high": 35.0
+        },
+        "spo2": {
+          "low": 85.0,
+          "high": 100.0
+        },
+        "temp": {
+          "low": 35.5,
+          "high": 38.5
+        }
+      },
+      "rationale": "The patient's vital sign thresholds were adjusted based on his complex medical history and current presentation. The lower SpO2 threshold was set to 88% due to his history of respiratory failure and current shortness of breath. The upper heart rate threshold was set to 120 bpm due to his history of tachycardia. The temperature thresholds were set to a narrower range due to his history of infections and sepsis."
+    },
+    "success": true
+  },
+  "duration_ms": 6142.441749572754
+}

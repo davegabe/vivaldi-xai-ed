@@ -1,0 +1,16 @@
+{
+  "step_id": "c953cdd7",
+  "timestamp": "2026-01-15T06:10:25.020535",
+  "agent_name": "consultant",
+  "input_data": {
+    "doctor_analysis_preview": "# Assessment\nThe patient is a 56-year-old male wit"
+  },
+  "llm_calls": [],
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "text_preview": "# Critique\nYour assessment of \"Decompensated Shock\" may be premature and anchored on the single SBP ",
+    "success": true
+  },
+  "duration_ms": 31191.45369529724
+}

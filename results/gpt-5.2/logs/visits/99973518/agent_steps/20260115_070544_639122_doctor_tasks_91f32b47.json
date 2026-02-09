@@ -1,0 +1,17 @@
+{
+  "step_id": "91f32b47",
+  "timestamp": "2026-01-15T07:05:44.639122",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 5545.9442138671875,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Compute and plot cross-correlation (lag \u00b120 min) between SpO2 and RR to test whether desaturation events precede/reactively increase RR (airway events) vs persistent tachypnea without SpO2 coupling (PE/shock).",
+      "Compute and plot cross-correlation (lag \u00b120 min) between SpO2 and HR to assess reflex tachycardia timing relative to hypoxemia (episodic obstruction) vs sustained HR-RR coupling independent of SpO2 (PE/shock).",
+      "Plot time-aligned trajectories of Shock Index, SBP, MAP, and pulse pressure with a 30-min rolling minimum SBP overlay to detect progressive hypotension/occult shock despite preserved MAP and to see whether SI spikes cluster around hypoxemia/tachypnea episodes."
+    ]
+  },
+  "duration_ms": 0.0
+}

@@ -1,0 +1,17 @@
+{
+  "step_id": "9e364b9c",
+  "timestamp": "2026-01-15T06:58:57.845884",
+  "agent_name": "doctor_tasks",
+  "input_data": {},
+  "llm_calls": 2918.1008338928223,
+  "calculations": [],
+  "retrievals": [],
+  "output_data": {
+    "tasks": [
+      "Plot MAP vs HR scatter with time-colored gradient (early\u2192late) to assess compensatory tachycardia vs fixed-rate physiology.",
+      "Compute and plot rolling-window (10\u201320 min) Pearson correlation between HR and MAP to quantify hemodynamic coupling over time.",
+      "Plot an event-centered multitrace (SpO2, RR, HR, MAP) for \u00b115 minutes around the SpO2 minimum to validate true desaturation vs artifact."
+    ]
+  },
+  "duration_ms": 0.0
+}

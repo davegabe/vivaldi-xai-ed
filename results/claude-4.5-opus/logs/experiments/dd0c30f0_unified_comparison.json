@@ -1,0 +1,85 @@
+{
+  "run_id": "dd0c30f0",
+  "experiment_name": "unified_comparison",
+  "started_at": "2026-01-15T06:50:38.150154",
+  "completed_at": "2026-01-15T06:53:40.465249",
+  "config": {
+    "model_name": "claude-4.5-opus",
+    "sample_size": 8,
+    "dataset_path": "/home/dave/Documents/Projects/XAI-agent-pulse/dataset/visits.csv",
+    "random_seed": 444,
+    "architecture": "agentic_coder"
+  },
+  "model_config": {},
+  "random_seed": 444,
+  "sample_size": 8,
+  "visit_ids": [
+    "99755326",
+    "99755326",
+    "99755326",
+    "99755326",
+    "99755326"
+  ],
+  "approach": "both",
+  "metrics": {
+    "zs_esi_accuracy": 0.625,
+    "zs_esi_mae": 0.375,
+    "zs_esi_rmse": 0.6123724356957945,
+    "zs_esi_precision": 0.5357142857142857,
+    "zs_esi_recall": 0.625,
+    "zs_esi_f1": 0.576923076923077,
+    "zs_pain_mae": 2.1666666666666665,
+    "zs_pain_rmse": 2.1984843263788196,
+    "zs_los_mae": 1.3575,
+    "zs_los_rmse": 1.7947632155802613,
+    "zs_si_mae": 0.12537500000000001,
+    "ag_esi_accuracy": 0.75,
+    "ag_esi_mae": 0.25,
+    "ag_esi_rmse": 0.5,
+    "ag_esi_precision": 0.875,
+    "ag_esi_recall": 0.75,
+    "ag_esi_f1": 0.7916666666666666,
+    "ag_pain_mae": 2.1666666666666665,
+    "ag_pain_rmse": 2.1984843263788196,
+    "ag_los_mae": 2.2824999999999998,
+    "ag_los_rmse": 2.79596584385432,
+    "ag_si_mae": 0.0012500000000000011,
+    "ag_verified_rate": 1.0,
+    "efficiency": {
+      "prompt_tokens": 260576,
+      "completion_tokens": 106360,
+      "cost_usd": 3.961856,
+      "total_duration_seconds": 182.285105
+    }
+  },
+  "agent_steps": [
+    "32bfe6fa",
+    "67b54d73",
+    "a1541634",
+    "95295e22",
+    "2b203794",
+    "6d8a8972",
+    "19cfe9b8"
+  ],
+  "llm_calls": [
+    "aed86b62",
+    "3bedd344",
+    "5543570c",
+    "a8fb0795",
+    "9444c3b8",
+    "6220856d",
+    "28d0dce6",
+    "f8c1483d",
+    "a9dd7e5f",
+    "7c0b009a"
+  ],
+  "git_commit": "a5edb1dd",
+  "python_version": "3.12.3",
+  "package_versions": {
+    "langchain": "1.2.0",
+    "openai": "2.14.0",
+    "pandas": "2.3.3",
+    "numpy": "2.4.0",
+    "scikit-learn": "1.8.0"
+  }
+}
