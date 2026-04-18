@@ -1,0 +1,6 @@
+Model,triage_%,doctor_%,consultant_%,coder_%,synthesis_%,top2_phases,top2_%
+gpt-5.2,3.01%,33.07%,14.45%,43.20%,6.26%,coder + doctor,76.28%
+claude-4.5-opus,8.71%,34.50%,13.81%,28.85%,14.13%,doctor + coder,63.35%
+gemini-3-pro,16.84%,35.03%,14.13%,18.83%,15.17%,doctor + coder,53.86%
+llama-4,14.53%,40.10%,17.37%,20.16%,7.83%,doctor + coder,60.26%
+medgemma-27b,6.86%,29.39%,16.43%,39.35%,7.97%,coder + doctor,68.74%
