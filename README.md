@@ -274,6 +274,10 @@ XAI-agent-pulse/
 └── run_benchmark.py        # CLI entry point (Run experiments)
 ```
 
+## Acknowledgements
+
+This work has been partly supported by the project “E-DAI”: Digital ecosystem for integrated analysis of heterogeneous health data relating to high-impact pathologies: an innovative model of assistance and research. Piano Operativo Salute (POS) 2014-2020, CUP: B83C22004150001.
+
 ## License
 
 Research use only. See MC-MED data use agreement.
